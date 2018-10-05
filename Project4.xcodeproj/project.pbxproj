@@ -12,6 +12,7 @@
 		33CC73882167A374000337A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CC73862167A374000337A6 /* Main.storyboard */; };
 		33CC738A2167A375000337A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33CC73892167A375000337A6 /* Assets.xcassets */; };
 		33CC738D2167A375000337A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CC738B2167A375000337A6 /* LaunchScreen.storyboard */; };
+		33CC73952167BA89000337A6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CC73942167BA89000337A6 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		33CC73892167A375000337A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33CC738C2167A375000337A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33CC738E2167A375000337A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33CC73942167BA89000337A6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				33CC73822167A374000337A6 /* AppDelegate.swift */,
 				33CC73842167A374000337A6 /* ViewController.swift */,
 				33CC73862167A374000337A6 /* Main.storyboard */,
+				33CC73942167BA89000337A6 /* DetailViewController.swift */,
 				33CC73892167A375000337A6 /* Assets.xcassets */,
 				33CC738B2167A375000337A6 /* LaunchScreen.storyboard */,
 				33CC738E2167A375000337A6 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33CC73952167BA89000337A6 /* DetailViewController.swift in Sources */,
 				33CC73852167A374000337A6 /* ViewController.swift in Sources */,
 				33CC73832167A374000337A6 /* AppDelegate.swift in Sources */,
 			);
